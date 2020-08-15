@@ -2,8 +2,9 @@ require 'pry'
 
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
+  total_strings = 0 
   array.count do |element|
-    element.has_value?(:to_s)
+    if element
   end
 end
 
