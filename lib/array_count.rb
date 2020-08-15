@@ -3,6 +3,7 @@ def count_strings(array)
   array.count do |element|
     if element.is_a?(string)
       total_strings += 1
+    end
   end
   return total_strings
 end
